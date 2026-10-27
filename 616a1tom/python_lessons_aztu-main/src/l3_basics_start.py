@@ -52,7 +52,8 @@ row = {"cell_id": "BAK-0207", "region": "Yasamal", "rsrp_dbm": -108.1}
 print(row["region"])
 print(row["rsrp_dbm"])
 print(row)
-row["region"] = "Nəsimi"
+row["band"] = "LTE800"
+row["region"]="Nesimi"
 print(row)
 
 print("=== Kərpic 7 ===")   # Dövr (for) və şərt (if / else)
